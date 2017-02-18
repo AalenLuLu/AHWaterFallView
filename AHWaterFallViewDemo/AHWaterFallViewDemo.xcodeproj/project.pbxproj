@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FEB51E2D1E5834FA0080E79F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E2C1E5834FA0080E79F /* main.m */; };
+		FEB51E301E5834FA0080E79F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E2F1E5834FA0080E79F /* AppDelegate.m */; };
+		FEB51E331E5834FA0080E79F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E321E5834FA0080E79F /* ViewController.m */; };
+		FEB51E381E5834FA0080E79F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEB51E371E5834FA0080E79F /* Assets.xcassets */; };
+		FEB51E3B1E5834FA0080E79F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEB51E391E5834FA0080E79F /* LaunchScreen.storyboard */; };
+		FEB51E461E5834FA0080E79F /* AHWaterFallViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E451E5834FA0080E79F /* AHWaterFallViewDemoTests.m */; };
+		FEB51E511E5834FA0080E79F /* AHWaterFallViewDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E501E5834FA0080E79F /* AHWaterFallViewDemoUITests.m */; };
+		FEB51E611E5835C90080E79F /* AHWaterFallViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E601E5835C90080E79F /* AHWaterFallViewLayout.m */; };
+		FEB51E6B1E5859EA0080E79F /* AHWaterFallViewProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E6A1E5859EA0080E79F /* AHWaterFallViewProxy.m */; };
+		FEB51E6E1E585F5D0080E79F /* DemoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E6D1E585F5D0080E79F /* DemoCell.m */; };
+		FEB51E711E58780F0080E79F /* AHWaterFallViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E701E58780F0080E79F /* AHWaterFallViewItem.m */; };
+		FEB51E741E587E760080E79F /* DemoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = FEB51E731E587E760080E79F /* DemoModel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEB51E421E5834FA0080E79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB51E201E5834FA0080E79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB51E271E5834FA0080E79F;
+			remoteInfo = AHWaterFallViewDemo;
+		};
+		FEB51E4D1E5834FA0080E79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEB51E201E5834FA0080E79F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEB51E271E5834FA0080E79F;
+			remoteInfo = AHWaterFallViewDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FEB51E281E5834FA0080E79F /* AHWaterFallViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AHWaterFallViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB51E2C1E5834FA0080E79F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FEB51E2E1E5834FA0080E79F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FEB51E2F1E5834FA0080E79F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FEB51E311E5834FA0080E79F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FEB51E321E5834FA0080E79F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FEB51E371E5834FA0080E79F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEB51E3A1E5834FA0080E79F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEB51E3C1E5834FA0080E79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB51E411E5834FA0080E79F /* AHWaterFallViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHWaterFallViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB51E451E5834FA0080E79F /* AHWaterFallViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHWaterFallViewDemoTests.m; sourceTree = "<group>"; };
+		FEB51E471E5834FA0080E79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB51E4C1E5834FA0080E79F /* AHWaterFallViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AHWaterFallViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEB51E501E5834FA0080E79F /* AHWaterFallViewDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AHWaterFallViewDemoUITests.m; sourceTree = "<group>"; };
+		FEB51E521E5834FA0080E79F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEB51E5F1E5835C90080E79F /* AHWaterFallViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHWaterFallViewLayout.h; sourceTree = "<group>"; };
+		FEB51E601E5835C90080E79F /* AHWaterFallViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHWaterFallViewLayout.m; sourceTree = "<group>"; };
+		FEB51E691E5859EA0080E79F /* AHWaterFallViewProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHWaterFallViewProxy.h; sourceTree = "<group>"; };
+		FEB51E6A1E5859EA0080E79F /* AHWaterFallViewProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHWaterFallViewProxy.m; sourceTree = "<group>"; };
+		FEB51E6C1E585F5D0080E79F /* DemoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoCell.h; sourceTree = "<group>"; };
+		FEB51E6D1E585F5D0080E79F /* DemoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoCell.m; sourceTree = "<group>"; };
+		FEB51E6F1E58780F0080E79F /* AHWaterFallViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AHWaterFallViewItem.h; sourceTree = "<group>"; };
+		FEB51E701E58780F0080E79F /* AHWaterFallViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AHWaterFallViewItem.m; sourceTree = "<group>"; };
+		FEB51E721E587E760080E79F /* DemoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoModel.h; sourceTree = "<group>"; };
+		FEB51E731E587E760080E79F /* DemoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoModel.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEB51E251E5834FA0080E79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E3E1E5834FA0080E79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E491E5834FA0080E79F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEB51E1F1E5834FA0080E79F = {
+			isa = PBXGroup;
+			children = (
+				FEB51E5E1E5835290080E79F /* AHWaterFallView */,
+				FEB51E2A1E5834FA0080E79F /* AHWaterFallViewDemo */,
+				FEB51E441E5834FA0080E79F /* AHWaterFallViewDemoTests */,
+				FEB51E4F1E5834FA0080E79F /* AHWaterFallViewDemoUITests */,
+				FEB51E291E5834FA0080E79F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEB51E291E5834FA0080E79F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E281E5834FA0080E79F /* AHWaterFallViewDemo.app */,
+				FEB51E411E5834FA0080E79F /* AHWaterFallViewDemoTests.xctest */,
+				FEB51E4C1E5834FA0080E79F /* AHWaterFallViewDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEB51E2A1E5834FA0080E79F /* AHWaterFallViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E621E5857790080E79F /* Classes */,
+				FEB51E2E1E5834FA0080E79F /* AppDelegate.h */,
+				FEB51E2F1E5834FA0080E79F /* AppDelegate.m */,
+				FEB51E311E5834FA0080E79F /* ViewController.h */,
+				FEB51E321E5834FA0080E79F /* ViewController.m */,
+				FEB51E371E5834FA0080E79F /* Assets.xcassets */,
+				FEB51E391E5834FA0080E79F /* LaunchScreen.storyboard */,
+				FEB51E3C1E5834FA0080E79F /* Info.plist */,
+				FEB51E2B1E5834FA0080E79F /* Supporting Files */,
+			);
+			path = AHWaterFallViewDemo;
+			sourceTree = "<group>";
+		};
+		FEB51E2B1E5834FA0080E79F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E2C1E5834FA0080E79F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FEB51E441E5834FA0080E79F /* AHWaterFallViewDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E451E5834FA0080E79F /* AHWaterFallViewDemoTests.m */,
+				FEB51E471E5834FA0080E79F /* Info.plist */,
+			);
+			path = AHWaterFallViewDemoTests;
+			sourceTree = "<group>";
+		};
+		FEB51E4F1E5834FA0080E79F /* AHWaterFallViewDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E501E5834FA0080E79F /* AHWaterFallViewDemoUITests.m */,
+				FEB51E521E5834FA0080E79F /* Info.plist */,
+			);
+			path = AHWaterFallViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		FEB51E5E1E5835290080E79F /* AHWaterFallView */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E5F1E5835C90080E79F /* AHWaterFallViewLayout.h */,
+				FEB51E601E5835C90080E79F /* AHWaterFallViewLayout.m */,
+				FEB51E6F1E58780F0080E79F /* AHWaterFallViewItem.h */,
+				FEB51E701E58780F0080E79F /* AHWaterFallViewItem.m */,
+			);
+			name = AHWaterFallView;
+			path = ../AHWaterFallView;
+			sourceTree = "<group>";
+		};
+		FEB51E621E5857790080E79F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FEB51E691E5859EA0080E79F /* AHWaterFallViewProxy.h */,
+				FEB51E6A1E5859EA0080E79F /* AHWaterFallViewProxy.m */,
+				FEB51E6C1E585F5D0080E79F /* DemoCell.h */,
+				FEB51E6D1E585F5D0080E79F /* DemoCell.m */,
+				FEB51E721E587E760080E79F /* DemoModel.h */,
+				FEB51E731E587E760080E79F /* DemoModel.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEB51E271E5834FA0080E79F /* AHWaterFallViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB51E551E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemo" */;
+			buildPhases = (
+				FEB51E241E5834FA0080E79F /* Sources */,
+				FEB51E251E5834FA0080E79F /* Frameworks */,
+				FEB51E261E5834FA0080E79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AHWaterFallViewDemo;
+			productName = AHWaterFallViewDemo;
+			productReference = FEB51E281E5834FA0080E79F /* AHWaterFallViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEB51E401E5834FA0080E79F /* AHWaterFallViewDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB51E581E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemoTests" */;
+			buildPhases = (
+				FEB51E3D1E5834FA0080E79F /* Sources */,
+				FEB51E3E1E5834FA0080E79F /* Frameworks */,
+				FEB51E3F1E5834FA0080E79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB51E431E5834FA0080E79F /* PBXTargetDependency */,
+			);
+			name = AHWaterFallViewDemoTests;
+			productName = AHWaterFallViewDemoTests;
+			productReference = FEB51E411E5834FA0080E79F /* AHWaterFallViewDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEB51E4B1E5834FA0080E79F /* AHWaterFallViewDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEB51E5B1E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemoUITests" */;
+			buildPhases = (
+				FEB51E481E5834FA0080E79F /* Sources */,
+				FEB51E491E5834FA0080E79F /* Frameworks */,
+				FEB51E4A1E5834FA0080E79F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEB51E4E1E5834FA0080E79F /* PBXTargetDependency */,
+			);
+			name = AHWaterFallViewDemoUITests;
+			productName = AHWaterFallViewDemoUITests;
+			productReference = FEB51E4C1E5834FA0080E79F /* AHWaterFallViewDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEB51E201E5834FA0080E79F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Aalen;
+				TargetAttributes = {
+					FEB51E271E5834FA0080E79F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FB23WJ523N;
+						ProvisioningStyle = Automatic;
+					};
+					FEB51E401E5834FA0080E79F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FB23WJ523N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEB51E271E5834FA0080E79F;
+					};
+					FEB51E4B1E5834FA0080E79F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = FB23WJ523N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FEB51E271E5834FA0080E79F;
+					};
+				};
+			};
+			buildConfigurationList = FEB51E231E5834FA0080E79F /* Build configuration list for PBXProject "AHWaterFallViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEB51E1F1E5834FA0080E79F;
+			productRefGroup = FEB51E291E5834FA0080E79F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEB51E271E5834FA0080E79F /* AHWaterFallViewDemo */,
+				FEB51E401E5834FA0080E79F /* AHWaterFallViewDemoTests */,
+				FEB51E4B1E5834FA0080E79F /* AHWaterFallViewDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEB51E261E5834FA0080E79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB51E3B1E5834FA0080E79F /* LaunchScreen.storyboard in Resources */,
+				FEB51E381E5834FA0080E79F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E3F1E5834FA0080E79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E4A1E5834FA0080E79F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEB51E241E5834FA0080E79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB51E331E5834FA0080E79F /* ViewController.m in Sources */,
+				FEB51E6B1E5859EA0080E79F /* AHWaterFallViewProxy.m in Sources */,
+				FEB51E301E5834FA0080E79F /* AppDelegate.m in Sources */,
+				FEB51E611E5835C90080E79F /* AHWaterFallViewLayout.m in Sources */,
+				FEB51E741E587E760080E79F /* DemoModel.m in Sources */,
+				FEB51E6E1E585F5D0080E79F /* DemoCell.m in Sources */,
+				FEB51E2D1E5834FA0080E79F /* main.m in Sources */,
+				FEB51E711E58780F0080E79F /* AHWaterFallViewItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E3D1E5834FA0080E79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB51E461E5834FA0080E79F /* AHWaterFallViewDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEB51E481E5834FA0080E79F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEB51E511E5834FA0080E79F /* AHWaterFallViewDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEB51E431E5834FA0080E79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB51E271E5834FA0080E79F /* AHWaterFallViewDemo */;
+			targetProxy = FEB51E421E5834FA0080E79F /* PBXContainerItemProxy */;
+		};
+		FEB51E4E1E5834FA0080E79F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEB51E271E5834FA0080E79F /* AHWaterFallViewDemo */;
+			targetProxy = FEB51E4D1E5834FA0080E79F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEB51E391E5834FA0080E79F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEB51E3A1E5834FA0080E79F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEB51E531E5834FA0080E79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEB51E541E5834FA0080E79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEB51E561E5834FA0080E79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FEB51E571E5834FA0080E79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FEB51E591E5834FA0080E79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHWaterFallViewDemo.app/AHWaterFallViewDemo";
+			};
+			name = Debug;
+		};
+		FEB51E5A1E5834FA0080E79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AHWaterFallViewDemo.app/AHWaterFallViewDemo";
+			};
+			name = Release;
+		};
+		FEB51E5C1E5834FA0080E79F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AHWaterFallViewDemo;
+			};
+			name = Debug;
+		};
+		FEB51E5D1E5834FA0080E79F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FB23WJ523N;
+				INFOPLIST_FILE = AHWaterFallViewDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aalen.AHWaterFallViewDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AHWaterFallViewDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB51E231E5834FA0080E79F /* Build configuration list for PBXProject "AHWaterFallViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB51E531E5834FA0080E79F /* Debug */,
+				FEB51E541E5834FA0080E79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB51E551E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB51E561E5834FA0080E79F /* Debug */,
+				FEB51E571E5834FA0080E79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB51E581E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB51E591E5834FA0080E79F /* Debug */,
+				FEB51E5A1E5834FA0080E79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEB51E5B1E5834FA0080E79F /* Build configuration list for PBXNativeTarget "AHWaterFallViewDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB51E5C1E5834FA0080E79F /* Debug */,
+				FEB51E5D1E5834FA0080E79F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB51E201E5834FA0080E79F /* Project object */;
+}
